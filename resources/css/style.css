@@ -5,9 +5,30 @@ html {
   font-size: 16px;
 }
 
+header {
+  z-index: 1;
+  height: 85px;
+  color: #4a4a4a;
+  position: fixed;
+  line-height: 1.6;
+}
+
+header .logo {
+  margin-left: 30px;
+}
+
+header .icon {
+  margin-right: 30px;
+}
 .main-content {
+  background-image: url(file:///C:/Users/Admin/Desktop/F1C1_start/resources/images/banner-landingpage.jpg);
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
+}
+
+#sign-up-section {
+position: relative;
+top: 170px;
 }
 
 .center {
