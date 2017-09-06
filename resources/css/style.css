@@ -21,7 +21,7 @@ header .icon {
   margin-right: 30px;
 }
 .main-content {
-  background-image: url(file:///C:/Users/Admin/Desktop/F1C1_start/resources/images/banner-landingpage.jpg);
+  background-image: url(../images/banner-landingpage.jpg);
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
 }
