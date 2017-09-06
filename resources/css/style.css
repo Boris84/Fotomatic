@@ -27,8 +27,21 @@ header .icon {
 }
 
 #sign-up-section {
-position: relative;
-top: 170px;
+  position: relative;
+  left: 100px;
+  top: 170px;
+}
+
+.banner .cursive { /*INSTANT */
+  margin-top: 32px;
+}
+
+.striking { /*FORMAT CAMERA */
+  color: white;
+  font-size: 50px;
+  line-height: 1.4;
+  margin-bottom: 12px;
+  font-family: "Rubik-Regular";
 }
 
 .center {
@@ -36,9 +49,14 @@ top: 170px;
 }
 
 .button {
-  border-radius: 4px;
   background-color: #4a4a4a;
+  position: relative;
+  border-radius: 4px;
+  margin-bottom: 56px;
+  height: 64px;
   color: white;
+  width: 408px;
+  top: 26px;
 }
 
 .image-container {
