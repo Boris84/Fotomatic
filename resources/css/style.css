@@ -31,6 +31,7 @@ header .icon {
   height: 43.5rem;
   align-items: flex-start;
   justify-content: flex-start;
+  background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
   background-image: url(../images/banner-landingpage.jpg);
@@ -38,13 +39,10 @@ header .icon {
 
 #sign-up-cta {
   position: relative;
-  left: 100px;
-  top: 145px;
+  height: 313px;
+  left: 150px;
+  top: 170px; 
 } 
-
-.banner .cursive { /*INSTANT */
-  margin-top: 32px;
-}
 
 .striking { /*FORMAT CAMERA */
   color: white;
@@ -57,7 +55,7 @@ header .icon {
   border-radius: 4px;
   margin-bottom: 56px;
   color: white;
-  top: 26px;
+  
 }
 
 .feature .content {
@@ -66,6 +64,10 @@ header .icon {
 
 .image-container {
   overflow: hidden;
+}
+
+.content.center {
+  line-height: 1.4;
 }
 
 #filters-section .images-container {
