@@ -55,7 +55,6 @@ header .icon {
   border-radius: 4px;
   margin-bottom: 56px;
   color: white;
-  
 }
 
 .feature .content {
@@ -102,6 +101,7 @@ header .icon {
 footer .content {
   font-size: 100%;
 }
+
 
 @media only screen and (max-width: 760px) {
 .main-content {
@@ -152,13 +152,19 @@ header .mobile {
   display: none;
 }
 
+
+
 @media only screen and (max-width: 760px) {
   header .desktop {
-    display: none;
+    display: block;
+  }
+    
+  .desktop ul {
+   padding: 1.4rem;
   }
 
-  header .mobile {
-    display: block;
+    header .mobile {
+    display: none;
     width: 100%;
   }
 
@@ -166,7 +172,7 @@ header .mobile {
     padding: .5rem 0;
   }
 
-  header .mobile ul {
+  header .mobile ul { 
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -235,6 +241,8 @@ header .mobile {
   margin-top: 1.625rem;
   padding: 1.25rem 7.25rem;
 }
+
+
 
 @media only screen and (max-width: 760px) {
   #sign-up-section {
@@ -413,7 +421,7 @@ header .mobile {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
@@ -431,7 +439,7 @@ header .mobile {
     padding: 1.875rem .625rem;
   }
 
-  #quotes-section quote {
+  #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
   }
