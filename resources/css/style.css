@@ -102,7 +102,6 @@ footer .content {
   font-size: 100%;
 }
 
-
 @media only screen and (max-width: 760px) {
 .main-content {
   top: 2.5625rem;
@@ -186,12 +185,13 @@ header .mobile {
   header .mobile .button {
     padding: .1875rem .5rem;
     background-color: #9dc20b;
-    line-height: 1.6;
+    line-height: 1.46;
     color: white;
   }
+
 }
 
-/* Sign Up Section */
+  /* Sign Up Section */
 
 #sign-up-section {
   display: flex;
@@ -245,6 +245,24 @@ header .mobile {
 
 
 @media only screen and (max-width: 760px) {
+  
+  header {
+    height: 2.5rem;
+  }
+
+  header .desktop {
+    display: none;
+  }
+
+  header .mobile {
+    display: block;
+    width: 100%;
+  }
+
+  header .mobile .button {
+    line-height: 1.9;
+  }
+
   #sign-up-section {
     align-items: center;
     justify-content: center;
@@ -417,7 +435,7 @@ header .mobile {
   background-color: #f3f3f3;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
 }
 
@@ -430,12 +448,12 @@ header .mobile {
   color: #4a4a4a;
 }
 
-#quotes-section quote-citation {
+#quotes-section .quote-citation {
   height: 1.875rem;
 }
 
 @media only screen and (max-width: 760px) {
-  #quotes-section content {
+  #quotes-section .content {
     padding: 1.875rem .625rem;
   }
 
@@ -444,7 +462,7 @@ header .mobile {
     line-height: 1.4;
   }
 
-  #quotes-section quote-citation {
+  #quotes-section .quote-citation {
     display: block;
     padding-top: 1rem;
     margin: auto;
