@@ -296,9 +296,9 @@ header .mobile {
   #sign-up-cta h2 {
     font-size: 2.25rem;
   }
+}
 
-
-@media only screen and (max-width: 450px) {}
+@media only screen and (max-width: 450px) {
   #sign-up-section {
     height: 20rem;
   }
